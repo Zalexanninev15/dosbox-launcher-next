@@ -19,57 +19,99 @@ namespace DOSBox_Launcher_2._0
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            Process.Start("edit_dosboxstart.bat");
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "cmd.exe";
+            myProcess.StartInfo.Arguments = @"/C cd " + Application.StartupPath + "/Scripts/ & start_e.bat";
+            myProcess.Start();
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Process.Start("dosbox.bat");
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "cmd.exe";
+            myProcess.StartInfo.Arguments = @"/C cd " + Application.StartupPath + "/Scripts/ & start.bat";
+            myProcess.Start();
         }
 
         private void Button6_Click(object sender, EventArgs e)
         {
-            Process.Start("apply3.bat");
+            string der = "profile3.conf";
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "cmd.exe";
+            myProcess.StartInfo.Arguments = @"/C cd " + Application.StartupPath + "/Scripts/ & apply.bat " + der;
+            myProcess.Start();
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            Process.Start("apply1.bat");
+            string der = "profile1.conf";
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "cmd.exe";
+            myProcess.StartInfo.Arguments = @"/C cd " + Application.StartupPath + "/Scripts/ & apply.bat " + der;
+            myProcess.Start();
         }
 
         private void Button8_Click(object sender, EventArgs e)
         {
-            Process.Start("apply2.bat");
+            string der = "profile2.conf";
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "cmd.exe";
+            myProcess.StartInfo.Arguments = @"/C cd " + Application.StartupPath + "/Scripts/ & apply.bat " + der;
+            myProcess.Start();
         }
 
         private void PictureBox2_Click(object sender, EventArgs e)
         {
-            Process.Start("profile3_data.bat");
+            string der = "Profile3";
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "cmd.exe";
+            myProcess.StartInfo.Arguments = @"/C cd " + Application.StartupPath + "/Scripts/ & data.bat " + der;
+            myProcess.Start();
         }
 
         private void PictureBox1_Click(object sender, EventArgs e)
         {
-            Process.Start("profile1_data.bat");
+            string der = "Profile1";
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "cmd.exe";
+            myProcess.StartInfo.Arguments = @"/C cd " + Application.StartupPath + "/Scripts/ & data.bat " + der;
+            myProcess.Start();
         }
 
         private void PictureBox4_Click(object sender, EventArgs e)
         {
-            Process.Start("edit1.bat");
+            string der = "profile1.conf";
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "cmd.exe";
+            myProcess.StartInfo.Arguments = @"/C cd " + Application.StartupPath + "/Scripts/ & edit.bat " + der;
+            myProcess.Start();
         }
 
         private void PictureBox5_Click(object sender, EventArgs e)
         {
-            Process.Start("edit2.bat");
+            string der = "profile2.conf";
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "cmd.exe";
+            myProcess.StartInfo.Arguments = @"/C cd " + Application.StartupPath + "/Scripts/ & edit.bat " + der;
+            myProcess.Start();
         }
 
         private void PictureBox6_Click(object sender, EventArgs e)
         {
-            Process.Start("edit3.bat");
+            string der = "profile3.conf";
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "cmd.exe";
+            myProcess.StartInfo.Arguments = @"/C cd " + Application.StartupPath + "/Scripts/ & edit.bat " + der;
+            myProcess.Start();
         }
 
         private void PictureBox3_Click(object sender, EventArgs e)
         {
-            Process.Start("profile2_data.bat");
+            string der = "Profile2";
+            Process myProcess = new Process();
+            myProcess.StartInfo.FileName = "cmd.exe";
+            myProcess.StartInfo.Arguments = @"/C cd " + Application.StartupPath + "/Scripts/ & data.bat " + der;
+            myProcess.Start();
         }
     }
 }

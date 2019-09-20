@@ -34,6 +34,9 @@
   <PropertyGroup>
     <ApplicationIcon>dosbox_94105.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DOSBox_Launcher_2._0.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
