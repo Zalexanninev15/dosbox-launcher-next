@@ -4,4 +4,4 @@
 The source code of the launcher for DOSBox in the PDukeFree 5
 
 ## Screenshot
-![AL](https://i.imgur.com/JKXFc5z.png)
+![Screenshot](https://github.com/Zalexanninev15/dosbox-launcher-next/blob/master/Screenshot.png?raw=true)
