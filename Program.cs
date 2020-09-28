@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
 
-namespace DOSBox_Launcher_2._0
+namespace DOSBox_Launcher_Next
 {
     static class Program
     {
@@ -15,7 +13,7 @@ namespace DOSBox_Launcher_2._0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
         }
     }
 }
