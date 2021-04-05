@@ -1,6 +1,6 @@
 # DOSBox Launcher ([Previous version](https://github.com/Zalexanninev15/dosbox-launcher))
 
-[![](https://img.shields.io/badge/platform-windows-blue.svg)](https://github.com/Zalexanninev15/dosbox-launcher-next)
+[![](https://img.shields.io/badge/platform-Windows-blue.svg)](https://github.com/Zalexanninev15/dosbox-launcher-next)
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Description
