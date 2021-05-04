@@ -1,5 +1,5 @@
 /*
-                    GNU GENERAL PUBLIC LICENSE
+                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
@@ -683,20 +683,9 @@ namespace DOSBox_Launcher_Next
 {
     public partial class MainForm : Form
     {
-        public MainForm()
-        {
-            InitializeComponent();
-        }
-
-        private void Button3_Click(object sender, EventArgs e)
-        {
-            Process.Start("notepad", @Application.StartupPath + @"/dosboxrun-cfg.bat");
-        }
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            Process.Start(@Application.StartupPath + @"/dosboxrun-cfg.bat");
-        }
+        public MainForm() { InitializeComponent(); }
+        private void Button3_Click(object sender, EventArgs e){ Process.Start("notepad", @Application.StartupPath + @"/dosboxrun-cfg.bat"); }
+        private void Button1_Click(object sender, EventArgs e) { Process.Start(@Application.StartupPath + @"/dosboxrun-cfg.bat"); }
 
         private void Button6_Click(object sender, EventArgs e)
         {
@@ -719,34 +708,11 @@ namespace DOSBox_Launcher_Next
             MessageBox.Show("Configuration is applied successfully!", "Game: Doom", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void PictureBox2_Click(object sender, EventArgs e)
-        {
-            Process.Start("explorer", @Application.StartupPath + @"\DOSData\D2M2");
-        }
-
-        private void PictureBox1_Click(object sender, EventArgs e)
-        {
-            Process.Start("explorer", @Application.StartupPath + @"\DOSData\DN3D");
-        }
-
-        private void PictureBox4_Click(object sender, EventArgs e)
-        {
-            Process.Start("notepad", @Application.StartupPath + @"\DOSBox\dn3d.conf");
-        }
-
-        private void PictureBox5_Click(object sender, EventArgs e)
-        {
-            Process.Start("notepad", @Application.StartupPath + @"\DOSBox\d2m.conf");
-        }
-
-        private void PictureBox6_Click(object sender, EventArgs e)
-        {
-            Process.Start("notepad", @Application.StartupPath + @"\DOSBox\d2m2.conf");
-        }
-
-        private void PictureBox3_Click(object sender, EventArgs e)
-        {
-            Process.Start("explorer", @Application.StartupPath + @"\DOSData\D2M");
-        }
+        private void PictureBox2_Click(object sender, EventArgs e) { Process.Start("explorer", @Application.StartupPath + @"\DOSData\D2M2"); }
+        private void PictureBox1_Click(object sender, EventArgs e) { Process.Start("explorer", @Application.StartupPath + @"\DOSData\DN3D"); }
+        private void PictureBox4_Click(object sender, EventArgs e) { Process.Start("notepad", @Application.StartupPath + @"\DOSBox\dn3d.conf"); }
+        private void PictureBox5_Click(object sender, EventArgs e) { Process.Start("notepad", @Application.StartupPath + @"\DOSBox\d2m.conf"); }
+        private void PictureBox6_Click(object sender, EventArgs e) { Process.Start("notepad", @Application.StartupPath + @"\DOSBox\d2m2.conf"); }
+        private void PictureBox3_Click(object sender, EventArgs e) { Process.Start("explorer", @Application.StartupPath + @"\DOSData\D2M"); }
     }
 }
