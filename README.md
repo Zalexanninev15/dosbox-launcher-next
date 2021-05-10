@@ -10,3 +10,7 @@
 
 ## Description
 The source code of the launcher for DOSBox in the PDukeFree 5
+
+## System requirements
+* **OS:** Windows 7/8/8.1/10
+* **Additional:** Microsoft .NET Framework 4.5
