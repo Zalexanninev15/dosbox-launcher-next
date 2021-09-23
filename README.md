@@ -1,7 +1,7 @@
 # DOSBox Launcher ([Previous version](https://github.com/Zalexanninev15/dosbox-launcher))
 
 [![](https://img.shields.io/badge/OS-Windows-informational?logo=windows)](https://github.com/Zalexanninev15/dosbox-launcher-next)
-[![](https://img.shields.io/badge/.NET-Framework_4.5-4E2ACD.svg)](https://www.microsoft.com/en-US/download/details.aspx?id=30653)
+[![](https://img.shields.io/badge/.NET-Framework_4.5-4E2ACD.svg)](https://dotnet.microsoft.com/download/dotnet-framework/net45)
 [![](https://img.shields.io/badge/release-v2.2-blue)](https://github.com/Zalexanninev15/dosbox-launcher-next)
 [![](https://img.shields.io/github/last-commit/Zalexanninev15/dosbox-launcher-next)](https://github.com/Zalexanninev15/dosbox-launcher-next/commits/master)
 [![](https://img.shields.io/github/stars/Zalexanninev15/dosbox-launcher-next.svg)](https://github.com/Zalexanninev15/RunAdminCMD/stargazers)
